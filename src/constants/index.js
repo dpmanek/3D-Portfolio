@@ -15,7 +15,6 @@ import {
 	git,
 	figma,
 	docker,
-	meta,
 	starbucks,
 	tesla,
 	shopify,
@@ -23,6 +22,7 @@ import {
 	jobit,
 	tripguide,
 	threejs,
+	atlast,
 } from '../assets';
 
 export const navLinks = [
@@ -46,7 +46,7 @@ const services = [
 		icon: web,
 	},
 	{
-		title: 'React Native Developer',
+		title: 'Front End Developer',
 		icon: mobile,
 	},
 	{
@@ -155,16 +155,17 @@ const experiences = [
 		],
 	},
 	{
-		title: 'Full stack Developer',
-		company_name: 'Meta',
-		icon: meta,
+		title: 'Software Developer',
+		company_name: 'At Last Sportswear, Inc',
+		icon: atlast,
 		iconBg: '#E6DEDD',
-		date: 'Jan 2023 - Present',
+		date: 'May 2023 - Present',
 		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
+			'Transformed the "Beach Lunch Lounge" site using ReactJS, leading to a redesigned architecture and a 30% increase in sales.',
+			'Implemented E2E , component and unit testing using cypress open-source software.',
+			'Deployed REST APIs with Node.js and Express.js to enhance website efficiency, resulting in seamless ERP integration and a 20%speed boost. Migrated data to MongoDB, ensuring a 50% reduction in data retrieval times and enhanced data efficiency.',
+			'Optimized website performance by 15% through AWS load balancing services, ensuring optimal traffic management.',
+			'Developed a REST API for weekly campaigns using Node.js, Express.js, and JWT, leading to a 25% increase in email open rates',
 		],
 	},
 ];
