@@ -15,14 +15,14 @@ import {
 	git,
 	figma,
 	docker,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
+	BET,
+	Instabuzz,
+	Rentpipe,
 	threejs,
 	atlast,
+	ltimindtree,
+	stevens,
+	websitelink,
 } from '../assets';
 
 export const navLinks = [
@@ -116,42 +116,27 @@ const technologies = [
 
 const experiences = [
 	{
-		title: 'React.js Developer',
-		company_name: 'Starbucks',
-		icon: starbucks,
+		title: 'Associate Data Scientist',
+		company_name: 'LTIMindtree',
+		icon: ltimindtree,
 		iconBg: '#383E56',
 		date: 'March 2020 - April 2021',
 		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
+			"Enhanced user accessibility for the Ministry of India's NIIP page by developing a Full Stack application, resulting in a 20% increase in user engagement and 30% faster page load times",
+			'Facilitated an in-depth platform comparison for Johnson Controls International by constructing two Full Stack chatbots, leading to a 25% surge in query processing accuracy and a 30% rise in user adoption rate',
+			'Improved chatbot efficiency by designing a MERN stack dashboard, achieving a 40% reduction in response time and a 50% increase in customer satisfaction',
+			'afeguarded web architecture by adhering to best security practices, leading to a 60% reduction in vulnerability incidents and bolstering data protection across platforms',
 		],
 	},
 	{
-		title: 'React Native Developer',
-		company_name: 'Tesla',
-		icon: tesla,
-		iconBg: '#E6DEDD',
-		date: 'Jan 2021 - Feb 2022',
-		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
-		],
-	},
-	{
-		title: 'Web Developer',
-		company_name: 'Shopify',
-		icon: shopify,
+		title: ' Graduate Course Teaching Assistant',
+		company_name: 'Stevens Institute of Technology',
+		icon: stevens,
 		iconBg: '#383E56',
-		date: 'Jan 2022 - Jan 2023',
+		date: 'Sept 2022 - May 2023',
 		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
+			'Course Assistant for Web programming II, Tutored, graded, and devised homework assignments for a class of 400+ students.',
+			'Conducted office hours to assist students with problem solving course material and supervised Slack channel.',
 		],
 	},
 	{
@@ -199,9 +184,9 @@ const testimonials = [
 
 const projects = [
 	{
-		name: 'Car Rent',
+		name: 'BET - Budget Expense Tracker',
 		description:
-			'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+			'Expense Tracking made easy.Stay on top of your spending with Expense Tracker. An online tracking tool to help you better understand your habits and make measurable change.',
 		tags: [
 			{
 				name: 'react',
@@ -212,17 +197,18 @@ const projects = [
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'tailwind',
+				name: 'scss',
 				color: 'pink-text-gradient',
 			},
 		],
-		image: carrent,
-		source_code_link: 'https://github.com/',
+		image: BET,
+		source_code_link: 'https://github.com/dpmanek/BET-Budget-Expense-Tracker',
+		demo_link: 'https://budgetexpensetracker.netlify.app/',
 	},
 	{
-		name: 'Job IT',
+		name: 'Rent Pipe',
 		description:
-			'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+			'A web application that allows users to find properties that are listed for Sale or Rent in their desired locations. his web application also allows users to create their own listings if they desire to Sell or Rent their house.',
 		tags: [
 			{
 				name: 'react',
@@ -233,33 +219,33 @@ const projects = [
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'scss',
+				name: 'oauth',
 				color: 'pink-text-gradient',
 			},
 		],
-		image: jobit,
-		source_code_link: 'https://github.com/',
+		image: Rentpipe,
+		source_code_link: 'https://github.com/dpmanek/RentPipe',
+		demo_link: 'https://rentpipe.netlify.app/',
 	},
 	{
-		name: 'Trip Guide',
-		description:
-			'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+		name: 'Instabuzz',
+		description: `Instabuzz is a platform for sharing memories and showcasing talent, mirroring Instagram's key features. Users can post single or multiple images with descriptions and locations. They can also explore, comment on, and like public posts from other users.`,
 		tags: [
 			{
-				name: 'nextjs',
+				name: 'redis',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'supabase',
+				name: 'ImageMagick',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'css',
+				name: 'AmazonS3',
 				color: 'pink-text-gradient',
 			},
 		],
-		image: tripguide,
-		source_code_link: 'https://github.com/',
+		image: Instabuzz,
+		source_code_link: 'https://github.com/dpmanek/CS554-TeamMavericks-project/',
 	},
 ];
 
