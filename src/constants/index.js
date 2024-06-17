@@ -120,7 +120,7 @@ const experiences = [
 		company_name: 'LTIMindtree',
 		icon: ltimindtree,
 		iconBg: '#383E56',
-		date: 'March 2020 - April 2021',
+		date: 'March 2020 - December 2021',
 		points: [
 			"Enhanced user accessibility for the Ministry of India's NIIP page by developing a Full Stack application, resulting in a 20% increase in user engagement and 30% faster page load times",
 			'Facilitated an in-depth platform comparison for Johnson Controls International by constructing two Full Stack chatbots, leading to a 25% surge in query processing accuracy and a 30% rise in user adoption rate',
@@ -158,11 +158,12 @@ const experiences = [
 const testimonials = [
 	{
 		testimonial:
-			'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-		name: 'Sara Lee',
-		designation: 'CFO',
-		company: 'Acme Co',
-		image: 'https://randomuser.me/api/portraits/women/4.jpg',
+			'I had the pleasure of working with Deep on several projects, and his expertise in web development is truly outstanding. Deep combines technical proficiency with creativity, resulting in innovative solutions that exceed expectations. His dedication and attention to detail have significantly enhanced our web presence and user experience.',
+		name: "Kevin D'sa",
+		designation: 'Full Stack Developer',
+		company: 'Character Strong',
+		image:
+			'https://media.licdn.com/dms/image/D4E03AQFlg8pIrXcp2w/profile-displayphoto-shrink_200_200/0/1705980131880?e=1724284800&v=beta&t=y_RIEShpwavc5pVJAIcfFLqO7z5U6YiAgBk6tldgdIQ',
 	},
 	{
 		testimonial:
