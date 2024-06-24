@@ -179,11 +179,11 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: 'Lisa Wang',
-		designation: 'CTO',
-		company: '456 Enterprises',
-		image: 'https://randomuser.me/api/portraits/women/6.jpg',
+			'Deep Manek personally helped me resolve a critical bug in our Node.js project, significantly improving our delivery timeline and overall outcome. His technical acumen and problem-solving skills are outstanding. Highly recommend!',
+		name: 'Marvin Patel',
+		designation: 'Software Developer II',
+		company: 'Global Payments',
+		image: 'https://raw.githubusercontent.com/dpmanek/images/main/Marvin.jpg',
 	},
 ];
 
