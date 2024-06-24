@@ -175,7 +175,7 @@ const testimonials = [
 		name: 'Nirav Jain',
 		designation: 'Full Stack Engineer II',
 		company: 'Geico',
-		image: 'https://raw.githubusercontent.com/dpmanek/images/main/Nirav.jpg',
+		image: 'https://raw.githubusercontent.com/dpmanek/images/main/nirav2.jpg',
 	},
 	{
 		testimonial:
