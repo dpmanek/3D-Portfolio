@@ -171,11 +171,11 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: 'Chris Brown',
-		designation: 'COO',
-		company: 'DEF Corp',
-		image: 'https://randomuser.me/api/portraits/men/5.jpg',
+			"Deep is very dynamic person and a great asset to have on the team. He was open to new challenges and learning new technologies. I've been happy to see him grow professionally.",
+		name: 'Nirav Jain',
+		designation: 'Full Stack Engineer II',
+		company: 'Geico',
+		image: 'https://raw.githubusercontent.com/dpmanek/images/main/Nirav.jpg',
 	},
 	{
 		testimonial:

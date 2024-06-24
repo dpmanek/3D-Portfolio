@@ -87,8 +87,8 @@ const Resume = () => {
 
 	return (
 		<div>
-			<h3 className={styles.sectionSubText}>Feeling Old school..</h3>
-			<h3 className={styles.sectionHeadText}>Here is my pdf version..</h3>
+			<h3 className={styles.sectionSubText}>Feeling Old school</h3>
+			<h3 className={styles.sectionHeadText}>PDF version.</h3>
 			<div className="flex justify-center mt-8">
 				<a href={resumeLink} target="_blank" rel="noopener noreferrer">
 					<button className="bg-blue-950 hover:bg-tertiary text-white font-bold py-2 px-4 rounded flex items-center">
