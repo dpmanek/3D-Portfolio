@@ -44,11 +44,10 @@ const About = () => {
 				variants={fadeIn('', '', 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
-				I am a Full Stack Developer with a passion for creating web applications
-				and websites. I have experience in developing web applications using
-				React, Node.js, Express, and MongoDB. I am also familiar with other
-				technologies such as TypeScript, GraphQL, and Firebase. I am always
-				eager to learn new technologies and improve my skills.
+		Professional Software Developer with 4+ years of hands-on experience in JavaScript, Node.js, Express.js, RESTful
+API development, and AWS cloud services. Proficient in React for building responsive interfaces. Skilled in agile
+methodologies, delivering scalable solutions that optimize performance. Committed to staying updated with
+emerging technologies and contributing to innovative projects in collaborative environments.
 			</motion.p>
 
 			<div className="mt-20 flex flex-wrap gap-10">

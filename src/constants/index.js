@@ -22,6 +22,8 @@ import {
 	atlast,
 	ltimindtree,
 	stevens,
+	genpact,
+	wayfair,
 	websitelink,
 } from '../assets';
 
@@ -120,41 +122,59 @@ const technologies = [
 
 const experiences = [
 	{
-		title: 'Associate Data Scientist',
+		title: 'Software Engineer',
 		company_name: 'LTIMindtree',
 		icon: ltimindtree,
 		iconBg: '#383E56',
-		date: 'March 2020 - December 2021',
+		date: '05/2018 – 12/2019 ',
 		points: [
-			"Enhanced user accessibility for the Ministry of India's NIIP page by developing a Full Stack application, resulting in a 20% increase in user engagement and 30% faster page load times",
+			"Enhanced user accessibility for the Ministry of India's NIIP page by developing a full stack application, resulting in a 20% increase in user engagement and 30% faster page load times",
 			'Facilitated an in-depth platform comparison for Johnson Controls International by constructing two Full Stack chatbots, leading to a 25% surge in query processing accuracy and a 30% rise in user adoption rate',
 			'Improved chatbot efficiency by designing a MERN stack dashboard, achieving a 40% reduction in response time and a 50% increase in customer satisfaction',
-			'afeguarded web architecture by adhering to best security practices, leading to a 60% reduction in vulnerability incidents and bolstering data protection across platforms',
-		],
-	},
-	{
-		title: ' Graduate Course Teaching Assistant',
-		company_name: 'Stevens Institute of Technology',
-		icon: stevens,
-		iconBg: '#383E56',
-		date: 'Sept 2022 - May 2023',
-		points: [
-			'Course Assistant for Web programming II, Tutored, graded, and devised homework assignments for a class of 400+ students.',
-			'Conducted office hours to assist students with problem solving course material and supervised Slack channel.',
+			'Safeguarded web architecture by adhering to best security practices, leading to a 60% reduction in vulnerability incidents and bolstering data protection across platforms',
+			'Cooperated with cross-functional teams to analyze requirements, create technical specifications, and implement innovative software resolutions that meet business objectives.',
 		],
 	},
 	{
 		title: 'Software Developer',
-		company_name: 'At Last Sportswear, Inc',
-		icon: atlast,
-		iconBg: '#E6DEDD',
-		date: 'May 2023 - Present',
+		company_name: 'Genpact',
+		icon: genpact,
+		iconBg: '#383E56',
+		date: '01/2020 – 11/2021',
 		points: [
-			'Transformed the "Beach Lunch Lounge" site using ReactJS, leading to a redesigned architecture and a 30% increase in sales.',
-			'Implemented E2E , component and unit testing using cypress open-source software.',
-			'Deployed REST APIs with Node.js and Express.js to enhance website efficiency, resulting in seamless ERP integration and a 20%speed boost. Migrated data to MongoDB, ensuring a 50% reduction in data retrieval times and enhanced data efficiency.',
-			'Optimized website performance by 15% through AWS load balancing services, ensuring optimal traffic management.',
-			'Developed a REST API for weekly campaigns using Node.js, Express.js, and JWT, leading to a 25% increase in email open rates',
+			`Developed a scalable healthcare management system using Node.js and React.js, handling over 100,000 patient
+			records and easing efficient patient regimes and healthcare provider alliances via cutting-edge technologies.
+			`,`Enforced authentication and authorization mechanisms using JSON Web Tokens and OAuth2, driving millions of
+			requests daily and securing access to liable healthcare data while meeting regulatory compliance norms.
+			`,`Designed and optimized MongoDB databases capable of storing up to 10 terabytes of data, enhancing system
+			performance, scalability, and data integrity, and ensuring the healthcare system maintains 99.99% uptime and
+			scalability across diverse user bases by leveraging AWS services such as EC2, RDS, and S3 for cloud deployment.
+			`,`Collaborated closely with a multidisciplinary team of 15+ members, utilizing Git for version control and JIRA for
+			project management, ensuring smooth workflow, effective communication, and timely delivery of features.
+			`,`Implemented Docker for containerization, enabling deployment, scalability, and resource efficiency of the
+			healthcare management system across various environments, including development, testing, and production.`
+		],
+	},
+	{
+		title: 'Software Engineer',
+		company_name: ' Wayfair',
+		icon: wayfair,
+		iconBg: '#E6DEDD',
+		date: '05/2023 – Present',
+		points: [
+			`Developed a Logistics Planning solution for a critical tier-1 service on AWS, aimed at revolutionizing logistics
+planning and navigation efficiency worldwide.
+`,`Led service infrastructure in a novel area within the CI/CD pipeline, effectively driving needs for raised package
+delivery abilities this required S3 for object storage, CloudWatch for monitoring, and IAM for access regime.
+`,`Leveraged MongoDB for robust data storage, utilizing its flexible data model and aggregation framework to
+handle high volumes of logistics data, ensure reliability, and provide efficient data management.
+`,`Utilized Express.js to build the server-side API, leveraging its middleware capabilities, error-handling
+mechanisms, and optimized interactions to create a cohesive and well-structured application.
+`,`Employed React.js to develop the user interface, using its component-based architecture, virtual DOM, and state
+management features to ensure a smooth, responsive, and integrated user experience.
+`,`Used Node.js as the runtime environment, operating its asynchronous programming model, vast ecosystem, and
+optimized performance to create a cohesive and efficient system.`
+
 		],
 	},
 ];

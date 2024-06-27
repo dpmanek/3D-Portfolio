@@ -25,6 +25,8 @@ import threejs from './tech/threejs.svg';
 import atlast from './company/atlast.png';
 import ltimindtree from './company/ltimindtree.png';
 import stevens from './company/stevens.png';
+import genpact from './company/genpact.png';
+import wayfair from './company/wayfair.png';
 
 import BET from './Projects/BET.png';
 import Rentpipe from './Projects/Rentpipe.png';
@@ -54,6 +56,8 @@ export {
 	threejs,
 	ltimindtree,
 	stevens,
+	genpact,
+	wayfair,
 	atlast,
 	BET,
 	Rentpipe,
